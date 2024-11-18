@@ -1,9 +1,13 @@
 console.log("Bievenido al programa de saludos.");
 
-function saludar(nombre) {
-    return `Hola, ${nombre}! ¿Como estas?`;
+function saludar(nombre, edad) {
+    return `Hola, ${nombre}! tienes ${edad} años`;
 }
 
 const nombreUsuario = "Estudiante";
-console.log(saludar(nombreUsuario));
+const edaUsuario = 20;
+console.log(saludar(nombreUsuario, edaUsuario));
+
+console.log("Fin");
+
 
